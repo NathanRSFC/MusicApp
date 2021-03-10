@@ -9,7 +9,11 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Text(nouns.first),
+          child: Row(
+            children: <Widget>[
+              Text('Hello'),
+            ],
+          ),
         ),
       ),
     );
